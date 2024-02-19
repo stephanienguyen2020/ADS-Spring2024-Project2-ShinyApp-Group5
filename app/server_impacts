@@ -1,0 +1,37 @@
+server_code <- "
+library(shiny)
+library(ggplot2)
+library(dplyr)
+shinyServer(function(input, output) {
+  output$plot = renderPlot({
+    filtered_df <- claims_df %>%
+      filter(incidentType == 'Fire')
+    
+    if(input$update == 3) {
+      filtered_df %>%
+        count(fyDeclared) %>%
+        arrange(desc(n)) %>%
+        ggplot(aes(x = fyDeclared, y = n, fill = n)) +
+        geom_bar(stat = 'identity') +
+        scale_fill_gradient(low = 'lightgreen', high = 'darkgreen') +
+        ylab('Total') +
+        xlab('Year Declared') +
+        labs(title='Fire insurance records by Year Declared')
+    } else if(input$update == 2) {
+      filtered_df %>%
+        count(state) %>%
+        arrange(desc(n)) %>%
+        top_n(15) %>%
+        ggplot(aes(x = reorder(state, -n), y = n, fill = n)) +
+        geom_bar(stat = 'identity') +
+        scale_fill_gradient(low = 'skyblue', high = 'darkblue') +
+        ylab('Total') +
+        xlab('State') +
+        labs(title = 'Fire records by State')
+    }
+  })
+})
+"
+
+writeLines(server_code, "server.R")
+
