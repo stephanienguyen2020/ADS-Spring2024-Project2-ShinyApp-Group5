@@ -16,7 +16,7 @@ shinyServer(function(input, output) {
         scale_fill_gradient(low = 'lightgreen', high = 'darkgreen') +
         ylab('Total') +
         xlab('Year Declared') +
-        labs(title='Fire insurance records by Year Declared')
+        labs(title='Fire records by Year Declared')
     } else if(input$update == 2) {
       filtered_df %>%
         count(state) %>%
