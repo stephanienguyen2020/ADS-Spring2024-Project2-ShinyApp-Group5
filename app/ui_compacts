@@ -1,0 +1,24 @@
+# Define the content of ui.R
+ui_code <- "
+library(shiny)
+
+fluidPage(
+  titlePanel('Fire Incident Analysis'),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput('update', 
+                  label = 'Choose the data to display:',
+                  choices = list('Year Declared' = 3,
+                                 'State' = 2),
+                  selected = 3)
+    ),
+
+    mainPanel(
+      plotOutput('plot')
+    )
+  )
+)
+"
+
+
+writeLines(ui_code, "ui.R")
