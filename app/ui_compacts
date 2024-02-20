@@ -1,24 +1,15 @@
-# Define the content of ui.R
-ui_code <- "
-library(shiny)
-
-fluidPage(
-  titlePanel('Fire Incident Analysis'),
+ui <- fluidPage(
+  titlePanel("Data Visualizations"),
   sidebarLayout(
     sidebarPanel(
-      selectInput('update', 
-                  label = 'Choose the data to display:',
-                  choices = list('Year Declared' = 3,
-                                 'State' = 2),
-                  selected = 3)
+      selectInput("plotType", "Choose a plot:",
+                  choices = c("Total Award Amount by Vendor State",
+                              "Number of Fire Incidents by State",
+                              "Total Fire Disaster Numbers by Fiscal Year",
+                              "Total Award Amount by Fiscal Year"))
     ),
-
     mainPanel(
-      plotOutput('plot')
+      plotOutput("selectedPlot")
     )
   )
 )
-"
-
-
-writeLines(ui_code, "ui.R")
