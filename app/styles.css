@@ -1,0 +1,17 @@
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://drive.google.com/file/d/1ogkLenaalUA8pPElNwCxSV4MNwmGbOVn/view?usp=sharing");
+  background-size: cover;
+}
+
+.title-text {
+  font-size: 60px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
