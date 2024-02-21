@@ -5,6 +5,6 @@
   + Fema Web Disaster Declaration
   + Fema Web Disaster Summaries
   + Fima Nfip Claims
-+ Data from other resources:
   + Non Disaster Assistance Firefighter Grants
++ Data from other resources:
   + US_Geo Code   
