@@ -2,24 +2,16 @@
 
 ### [Project Description](doc/project2_desc.md)
 
-Term: Fall 2023
+Term: Spring 2024
 
 ![screenshot](doc/figs/map.jpg)
 
-In this second project of GR5243 Applied Data Science, we develop a *Exploratory Data Analysis and Visualization* shiny app using one of **the OpenFEMA data sets** of your choice. See [Project 2 Description](doc/project2_desc.md) for more details.  
+In this second project of GR5243 Applied Data Science, we develop a *Exploratory Data Analysis and Visualization* shiny app using **the OpenFEMA data sets**. See [Project 2 Description](doc/project2_desc.md) for more details.  
 
-The **learning goals** for this project is:
 
-- business intelligence for data science
-- data cleaning
-- data visualization
-- systems development/design life cycle
-- shiny app/shiny server
+## Project Title: Geospatial Insights and Forecasting for Fire Incident Preparedness
 
-*The above general statement about project 2 can be removed once you are finished with your project. It is optional.
-
-## Project Title Lorem ipsum dolor sit amet
-Term: Fall 2023
+Term: Spring 2024
 
 + Team #5
 + **Projec title**:
@@ -28,7 +20,7 @@ Term: Fall 2023
 	+ Tien Nguyen
 	+ Sally Zhao
 
-+ **Project summary**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ **Project summary**: The increasing occurrence of fire incidents, driven by factors such as climate change and human encroachment into vulnerable areas, presents a significant challenge for effective management and mitigation efforts. Current approaches to understanding and preparing for these incidents often rely on static, historical data, lacking the capacity for real-time analysis and spatial awareness. The absence of accessible, user-friendly tools that offer geospatial visualization of fire risk areas based on historical data limits proactive planning and community engagement in fire preparedness strategies. This project provides a straightforward, data-driven solution that leverages existing datasets to provide intuitive, geospatial visualizations of fire incident risks, enhancing the overall preparedness and awareness of potential fire threats among various stakeholders.
 
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
