@@ -174,7 +174,7 @@ server <- function(input, output) {
     fullStatement <- paste("Linear Model: <br>",
                            "<br> Intercept: ", lm_model_summary$coefficients[, 1][1],
                            " Slope: ", lm_model_summary$coefficients[, 1][2],
-                           "<br>R-squared: ", lm_model_summary$r.squared,
+                           #"<br>R-squared: ", lm_model_summary$r.squared,
                            "<br><br>", prediction)
 
     return(fullStatement)  # Display the dynamically updated text
