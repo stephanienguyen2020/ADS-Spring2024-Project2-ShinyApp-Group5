@@ -22,7 +22,7 @@ The **learning goals** for this project is:
 Term: Fall 2023
 
 + Team #
-+ **Projec title**: + Team members
++ **Projec title**:
 	+ Yawen Zhou
 	+ Siyu Li
 	+ Tien Nguyen
