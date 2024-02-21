@@ -23,10 +23,10 @@ Term: Fall 2023
 
 + Team #
 + **Projec title**: + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
+	+ Yawen Zhou
+	+ Siyu Li
+	+ Tien Nguyen
+	+ Sally Zhao
 	+ team member 5
  	+ team member 6
 
