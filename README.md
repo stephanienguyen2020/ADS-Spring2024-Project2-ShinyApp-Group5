@@ -10,6 +10,7 @@ Term: Spring 2024
 
 In this second project of GR5243 Applied Data Science, we develop a *Exploratory Data Analysis and Visualization* shiny app using [**the OpenFEMA data sets**](https://www.fema.gov/about/openfema/data-sets). See [Project 2 Description](doc/project2_desc.md) for more details.  
 
+## Click [here](https://sally-zhao.shinyapps.io/project1-femadisasterdata/) to directly explore our shiny app page!
 
 ## Project Title: Geospatial Insights and Forecasting for Fire Incident Preparedness
 
