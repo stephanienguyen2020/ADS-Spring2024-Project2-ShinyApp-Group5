@@ -15,8 +15,9 @@ In this second project of GR5243 Applied Data Science, we develop a *Exploratory
 
 Term: Spring 2024
 
-+ Team #5
-+ **Projec title**:
++ **Team #5**
++ **Projec title**: Geospatial Insights and Forecasting for Fire Incident Preparedness
++ **Team members**:
 	+ Yawen Zhou
 	+ Siyu Li
 	+ Tien Nguyen
